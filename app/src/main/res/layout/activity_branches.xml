@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BranchesActivity">
+
+    <Spinner
+        android:id="@+id/area"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="18dp"
+        android:prompt="@string/spinner_title"
+        android:spinnerMode="dropdown"
+        android:background="@android:drawable/btn_dropdown">
+
+    </Spinner>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:dividerHeight="1dip"
+        android:divider="@android:color/black"
+        android:drawSelectorOnTop="true">
+
+    </ListView>
+
+</LinearLayout>

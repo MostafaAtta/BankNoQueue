@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Bank NoQueue</string>
+    <string name="spinner_title">Branches</string>
+
+    <string-array name="object_array">
+
+        <item>House</item>
+
+        <item>Car</item>
+
+        <item>Cake</item>
+
+        <item>Money</item>
+
+        <item>Food</item>
+
+        <item>Phone</item>
+
+        <item>Laptop</item>
+
+    </string-array>
+</resources>

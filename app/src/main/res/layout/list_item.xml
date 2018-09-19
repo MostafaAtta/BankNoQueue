@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp">
+
+
+    <LinearLayout
+        android:id="@+id/image_layout"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        android:layout_alignParentLeft="true">
+
+
+        <ImageView
+            android:id="@+id/image_view"
+            android:layout_width="100dp"
+            android:layout_height="70dp"
+            android:src="@drawable/bankbranches"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/status_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Normal"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/branch_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_toRightOf="@+id/image_layout"
+        android:layout_toLeftOf="@+id/arrow"
+        android:paddingLeft="12dp"
+        android:textStyle="bold"
+        android:textSize="36dp"
+        tools:text="Nasr City"
+        tools:textColor="@android:color/black"/>
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/arrow"
+        android:scaleType="fitCenter"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>
